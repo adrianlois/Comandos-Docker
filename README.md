@@ -329,11 +329,14 @@ Referencia de comandos Docker Swarm.
 
 <a href="https://docs.docker.com/engine/reference/commandline/swarm" target="_blank">https://docs.docker.com/engine/reference/commandline/swarm</a>
 
+<a href="https://docs.docker.com/engine/reference/commandline/swarm_update" target="_blank">https://docs.docker.com/engine/reference/commandline/swarm_update</a>
+
 Iniciar, unirse y dejar un cluster Swarm.
 ```
-docker swarm init    #Inicializar un Swarm.
-docker swarm join    #Unirse a un Swarm como nodo worker y/o manager (dependiendo si se trata de un –token manager o worker).
-docker swarm leave   #Dejar un Swarm.
+docker swarm init     #Inicializar un Swarm.
+docker swarm join     #Unirse a un Swarm como nodo worker y/o manager (dependiendo si se trata de un –token manager o worker).
+docker swarm leave    #Dejar un Swarm.
+docker swarm update   #Actualizar un Swarm, dispone de varias opciones.
 ```
 
 ### ● Comandos Docker Machine
