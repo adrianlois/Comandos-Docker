@@ -293,6 +293,9 @@ docker cp -a <path_host_local> <id_contenedor>:<path_contenedor>
 ```
 
 Ejecutar un comando en un contenedor en ejecución. Por ejemplo una Shell bash en modo interactivo (útil para acceder a un contenedor en ejecución).
+
+<a href="https://docs.docker.com/engine/reference/commandline/exec" target="_blank">https://docs.docker.com/engine/reference/commandline/exec</a>
+
 ```
 docker exec -it nombre_contenedor /bin/bash
 ```
