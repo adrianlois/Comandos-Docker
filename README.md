@@ -300,6 +300,11 @@ Ejecutar un comando en un contenedor en ejecución. Por ejemplo una Shell bash e
 docker exec -it nombre_contenedor /bin/bash
 ```
 
+**○ Salir de un contenedor con bash interactivo**
+```
+Con exit o con la combinación de teclas: Ctrl+p+q
+```
+
 **○ Live restore Docker**
 
 Permite que los contenedores permanezcan en ejecución aunque el daemon no esté disponible (por ejemplo en un reinicio del daemon dockerd). Ayuda a reducir la inactividad del contenedor debido a fallas del daemon, interrupciones planificadas o actualizaciones.
