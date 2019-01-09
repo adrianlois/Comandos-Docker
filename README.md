@@ -302,7 +302,8 @@ docker exec -it nombre_contenedor /bin/bash
 
 **○ Salir de un contenedor con bash interactivo**
 ```
-Con exit o con la combinación de teclas: Ctrl+p+q
+# Con la combinación de teclas: Ctrl+p+q
+# exit: si el contenedor se inició en modo --detach o -d
 ```
 
 **○ Live restore Docker**
