@@ -469,6 +469,24 @@ Forzar actualización de un servicio, incluso si ningún cambio lo requiere. Út
 docker service update --force test
 ```
 
+### ● Comandos Docker Compose
+
+Referencia de comandos Docker Compose.
+
+<a href="https://docs.docker.com/compose/gettingstarted" target="_blank">https://docs.docker.com/compose/gettingstarted</a>  (docker-compose --help)
+```
+docker-compose up              #Crear y ejecutar los servicios y ver el proceso.
+docker-compose up -d           #Crear y ejecutar los servicios en segundo plano, seguir desde la misma tty.
+docker-compose run <servicio> <comando>  #Ejecutar un comando único para un servicio concreto.
+docker-compose stop            #Parar todos los servicios.
+docker-compose down            #Eliminar los servicios.
+docker-compose down --volumes  #Eliminar los servicios y los volúmenes asociados.
+docker-compose ps              #Listar los servicios.
+docker-compose ps --services   #Listar solo los nombres de los servicios.
+docker-compose restart         #Reiniciar los servicios.
+Docker-compose rm              #Parar y eliminar los servicios.
+```
+
 ### ● Comandos Docker Stack
 
 Referencia de comandos Docker Stack.
