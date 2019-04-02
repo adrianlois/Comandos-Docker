@@ -298,6 +298,7 @@ Ejecutar un comando en un contenedor en ejecución. Por ejemplo una Shell bash e
 
 ```
 docker exec -it nombre_contenedor /bin/bash
+docker exec -it nombre_contenedor /bin/sh
 ```
 
 **○ Salir de un contenedor con bash interactivo**
