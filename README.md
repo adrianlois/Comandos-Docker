@@ -63,7 +63,7 @@ id -nG
 ```
 
 
-## ▶ Referencia comandos Docker
+## ▶ Docker Cheat Sheet
 
 <a href="https://docs.docker.com/engine/reference/commandline/docker" target="_blank">https://docs.docker.com/engine/reference/commandline/docker</a>
 
