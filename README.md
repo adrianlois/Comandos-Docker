@@ -1,4 +1,4 @@
-# Comandos Docker - Cheat Sheet
+# Docker - Cheat Sheet
 Comandos Docker - Guía Referencia
 
 ```
